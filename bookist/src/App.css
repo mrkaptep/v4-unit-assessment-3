@@ -1,0 +1,91 @@
+#root {
+  flex-direction: column;
+  display: flex;
+}
+
+.header {
+  display: block;
+  width: 98.5vw;
+  background-color: rgb(243, 241, 241);
+  color: #3fb9a5;
+  font-weight: bold;
+  text-align: center;
+  font-size: 27px;
+  padding: 10px;
+  box-shadow: 0 10px 10px -10px #000000;
+  z-index: 1;
+}
+
+.searchBar {
+  width: 100vw;
+  height: 40px;
+  display: flex;
+  background-color: rgb(243, 241, 241);
+}
+
+.searchBox {
+  width: 100vw;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchMe {
+  margin: 0 24px 0 24px;
+}
+
+.bookContainer {
+  background-color: rgb(243, 241, 241);
+  box-sizing: border-box;
+  display: flex;
+  width: 100vw;
+  object-fit: scale-down;
+}
+
+.bookshelf {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  border-right: 2px solid rgb(29, 28, 28);
+}
+
+.image {
+  width: 150px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.bookBox {
+  width: 160px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.yourShelf {
+  display: flex;
+  width: 300px;
+  background-color: rgb(243, 241, 241);
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.shelfTitle {
+  margin-top: 23px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.shelfButton {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.titleSpace {
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
